@@ -1,6 +1,6 @@
 {
   "name": "servo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Server dummy for my tests :D",
   "private": true,
   "scripts": {
