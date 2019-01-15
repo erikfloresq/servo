@@ -46,7 +46,7 @@ function sendPushNotification(req, res) {
 }
 
 function root(req, res) {
-  res.render('sendpush', { title: 'Send Push Notification' });
+  res.render('apn', { title: 'Send Push Notification' });
 }
 
 router.get('/', root);

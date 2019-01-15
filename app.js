@@ -7,6 +7,7 @@ import bodyParser from 'body-parser';
 import index from './routes/index';
 import graphql from './routes/graphql';
 import pushNotification from './routes/pushNotification';
+import fcm from './routes/fcm';
 import { notFound, errorHandler } from './functions/app';
 
 const app = express();
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/graphql', graphql);
 app.use('/pushNotification', pushNotification);
+app.use('/fcm', fcm);
 
 // catch 404
 app.use(notFound);
