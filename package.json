@@ -31,7 +31,7 @@
     "firebase-admin": "^9.5.0",
     "graphql": "^0.10.0",
     "graphql-tools": "^0.11.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "morgan": "^1.10.0",
     "pug": "~3.0.1",
     "serve-favicon": "~2.4.2"
